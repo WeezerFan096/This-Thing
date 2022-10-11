@@ -1,4 +1,4 @@
-<!DOCTYPE html>
++<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,26 +9,28 @@
     
 
 <style>
-       
-    .HATE {
-      background-color: white;
-      color: grey;
-      
-    }
-    
-    
-    
-    /* 400px 4 column */
-    @media (min-width: 400px) {
-      .HATE {grid-template-columns: repeat(4, 1fr);
-    }
-    
-    /* 900px 5 columns */
-    @media (min-width: 900px) {
-      .HATE {  
-      grid-template-columns: repeat(5, 1fr);
-        grid-auto-rows: repeat(8, 1fr);
-        grid-template-areas:
+    html { font-size: 22px; }
+    body { padding: 1rem; } 
+
+.HATE {
+  background-color: white;
+  color: grey;
+  
+}
+
+
+
+/* Screen larger than 400px? 2 column */
+@media (min-width: 400px) {
+  .HATE {grid-template-columns: repeat(5, auto);
+}
+
+/* Screen larger than 900px? 3 columns */
+@media (min-width: 900px) {
+  .HATE {  
+  grid-template-columns: repeat(5, auto);
+    grid-auto-rows: repeat(8, auto);
+    grid-template-areas:
     "twentyone twentyone twentyone twentyone one"
     "twentyone twentyone twentyone twentyone two"
     "twentyone twentyone twentyone twentyone three"
@@ -37,8 +39,8 @@
     "eight thirteen fourteen fourteen fifteen"
     "twelve thirteen sixteen seventeen eighteen"
     "nineteen twenty twenty . MISERY";}
-    }
-    }
+}
+}
 </style>
 
 </head>
