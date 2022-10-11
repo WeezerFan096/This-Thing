@@ -1,0 +1,125 @@
+@media (max-width: 400px) {
+  .HATE { grid-template-columns: repeat(5, auto);
+          grid-template-rows: repeat(8, auto) ; 
+          grid-template-areas:
+          "header header header header header"
+          "twentyone twentyone twentyone twentyone twentyone"
+          "twentyone twentyone twentyone twentyone twentyone"
+          "one three four four three"
+          "two . five six seven"
+          "eight nine nine ten eleven"
+          "eight thirteen fourteen fourteen fifteen"
+          "twelve thirteen sixteen seventeen eighteen"
+          "nineteen twenty twenty . ."
+          "MISERY . . . ."
+          ;}
+}
+.HATE {
+    display: grid;
+    max-width: 1200px;
+    margin: 0 auto;
+    grid-template-columns: repeat(5, auto);
+    grid-auto-rows: repeat(8, auto);
+    gap: 1rem;
+    grid-template-areas:
+    "twentyone twentyone twentyone twentyone one"
+    "twentyone twentyone twentyone twentyone two"
+    "twentyone twentyone twentyone twentyone three"
+    "four four five six seven"
+    "eight nine nine ten eleven"
+    "eight thirteen fourteen fourteen fifteen"
+    "twelve thirteen sixteen seventeen eighteen"
+    "nineteen twenty twenty . MISERY";
+  }
+  .one {
+    grid-area: one;
+  }
+  .two {
+    grid-area: two;
+  }
+  .three {
+    grid-area: three;
+  }
+  .four {
+    grid-area: four;
+  }
+  .five {
+    grid-area: five;
+  }
+  .six {
+    grid-area: six;
+  }
+
+.seven {
+  grid-area: seven;
+}
+
+.eight {
+  grid-area: eight;
+}
+
+.nine {
+  grid-area: nine;
+}
+
+.ten {
+  grid-area: ten;
+}
+
+.eleven {
+  grid-area: eleven;
+}
+
+.twelve {
+  grid-area: twelve;
+}
+
+.thirteen {
+  grid-area: thirteen;
+}
+
+.fourteen {
+  grid-area: fourteen;
+}
+
+.fifteen {
+  grid-area: fifteen;
+}
+
+.sixteen {
+  grid-area: sixteen;
+}
+
+.seventeen {
+  grid-area: seventeen;
+}
+
+.eighteen {
+  grid-area: eighteen;
+}
+
+.nineteen {
+  grid-area: nineteen;
+}
+
+.twenty {
+  grid-area: twenty;
+}
+
+.twentyone {
+  grid-area: twentyone;
+}
+img{
+  width:95%;
+  height:95%;
+}
+.MISERY{
+font-family: Arial, Helvetica, sans-serif ;
+color: orchid;
+grid-area: MISERY;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
