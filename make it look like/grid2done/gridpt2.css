@@ -1,0 +1,152 @@
+
+
+.HATE {
+margin: 1px;
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(8, auto);
+grid-template-areas:
+"logo logo logo logo facebook"
+"logo logo logo logo twitter"
+"logo logo logo logo mfef"
+"bday bday srs ages wigs"
+"music super super candy prices"
+"music xmas classic classic free"
+"props xmas vamp witch goblins"
+"blackmask mardi mardi . footer";
+}
+@media screen and (max-width: 400px) {
+.HATE { 
+    display: grid; 
+    margin: 1px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(11, auto);
+    grid-template-areas:
+    "header header header header header"
+    "logo logo logo logo logo"
+    "logo logo logo logo logo"
+    "facebook blackmask mardi mardi mfef"
+    "twitter blackmask mardi mardi mfef"
+    "bday bday srs ages wigs"
+    "bday bday srs ages wigs"
+    "music super super candy prices"
+    "music xmas classic classic free"
+    "props xmas vamp witch goblins"
+    "footer footer footer footer footer";
+    }
+}
+.facebook {
+grid-area: facebook;
+margin: 1px;
+}
+.twitter {
+grid-area: twitter;
+margin: 1px;
+}
+.mfef {
+grid-area: mfef;
+margin: 1px;
+}
+.bday {
+grid-area: bday;
+margin: 1px;
+}
+.srs {
+grid-area: srs;
+margin: 1px;
+}
+.ages {
+grid-area: ages;
+margin: 1px;
+}
+
+.wigs {
+grid-area: wigs;
+margin: 1px;
+}
+
+.music {
+grid-area: music;
+margin: 1px;
+}
+
+.super {
+grid-area: super;
+margin: 1px;
+}
+
+.candy {
+grid-area: candy;
+margin: 1px;
+}
+
+.prices {
+grid-area: prices;
+margin: 1px;
+}
+
+.props {
+grid-area: props;
+margin: 1px;
+}
+
+.xmas {
+grid-area: xmas;
+margin: 1px;
+}
+
+.classic {
+grid-area: classic;
+margin: 1px;
+}
+
+.free {
+grid-area: free;
+margin: 1px;
+}
+
+.vamp {
+grid-area: vamp;
+margin: 1px;
+}
+
+.witch {
+grid-area: witch;
+margin: 1px;
+}
+
+.goblins {
+grid-area: goblins;
+margin: 1px;
+}
+
+.blackmask {
+grid-area: blackmask;
+margin: 1px;
+}
+
+.mardi {
+grid-area: mardi;
+margin: 1px;
+}
+
+.logo {
+grid-area: logo;
+margin: 1px;
+}
+img{
+width:95%;
+height:95%;
+}
+
+.footer{
+font-family: Arial, Helvetica, sans-serif ;
+color: black;
+grid-area: footer;
+background-color: peachpuff;
+list-style: none;
+}
+.header{
+list-style: none;
+background-color: peachpuff;
+}

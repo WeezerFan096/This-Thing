@@ -1,18 +1,6 @@
 @media (max-width: 400px) {
   .HATE { grid-template-columns: repeat(5, auto);
-          grid-template-rows: repeat(8, auto) ; 
-          grid-template-areas:
-          "header header header header header"
-          "twentyone twentyone twentyone twentyone twentyone"
-          "twentyone twentyone twentyone twentyone twentyone"
-          "one three four four three"
-          "two . five six seven"
-          "eight nine nine ten eleven"
-          "eight thirteen fourteen fourteen fifteen"
-          "twelve thirteen sixteen seventeen eighteen"
-          "nineteen twenty twenty . ."
-          "MISERY . . . ."
-          ;}
+          grid-template-rows: repeat(8, auto) ; }
 }
 .HATE {
     display: grid;
